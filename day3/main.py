@@ -49,7 +49,7 @@ def part2():
                             gears[(_x,_y)] = [number]
                         else:
                             # print(f"Updated potential gear at ({_x}, {_y})")
-                            gears[((_x,_y))].append(number)
+                            gears[(_x,_y)].append(number)
                         break
                 number = 0
                 indicies = []
